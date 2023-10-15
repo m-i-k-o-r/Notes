@@ -20,9 +20,9 @@
 - **измение существующей заметки по id**
   POST запрос `http://localhost:8080/note/{id}/updateNote`
 - **вывод всех заметок**
-  POST запрос `http://localhost:8080/note/`
+  GET запрос `http://localhost:8080/note/`
 - **вывод одной заметки по id**
-  POST запрос `http://localhost:8080/note/{id}`
+  GET запрос `http://localhost:8080/note/{id}`
 - **удаление заметки по id**
   DELETE запрос `http://localhost:8080/note/{id}/delete`
 
