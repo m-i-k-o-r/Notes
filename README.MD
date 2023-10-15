@@ -16,14 +16,19 @@
 
 ## Функции приложения
 - **создание новой заметки**
+
   POST запрос `http://localhost:8080/note/create`
 - **измение существующей заметки по id**
+
   POST запрос `http://localhost:8080/note/{id}/updateNote`
 - **вывод всех заметок**
+
   GET запрос `http://localhost:8080/note/`
 - **вывод одной заметки по id**
+
   GET запрос `http://localhost:8080/note/{id}`
 - **удаление заметки по id**
+
   DELETE запрос `http://localhost:8080/note/{id}/delete`
 
 ## База данных
